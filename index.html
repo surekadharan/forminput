@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+    <h2>Form Submission</h2>
+    <form autocomplete="off" onsubmit="onFormSubmit()">
+        <div>
+        <label for="name">First Name</label><br>
+        <input type="text" name="name" id="name"><br>
+        </div>
+        <div>
+        <label for="lname">Last Name</label><br>
+        <input type="text" name="lname" id="lname"><br>
+        </div>
+        <div>
+        <label for="aname">Address line1</label><br>
+        <input type="text" name="aname" id="aname"><br>
+        </div>
+        <div>
+        <label for="bname">Address line2</label><br>
+        <input type="text" name="bname" id="bname"><br>
+        </div>
+        <div>
+        <label for="pin">PIN</label><br>
+        <input type="number" name="number" id="number"><br>
+        </div>
+        <div>
+        
+        <label for="gender">Gender</label><br>
+        <input type="radio" name="male" id="male">
+        <label for="male">male</label>
+        <input type="radio" name="fmale" id="fmale">
+        <label for="male">female</label><br>
+</div>
+        
+      <div>
+            <label for="food">choice of food:(must choose atleast 2 out 0f 5 options)</label><br>
+    
+        
+                <input  type="checkbox" id="gridCheck1">
+                <label  for="gridCheck1">South Indian</label><br>
+                <input  type="checkbox" id="gridCheck2">
+                <label  for="gridCheck2">North Indian</label><br>
+                <input  type="checkbox" id="gridCheck3">
+                <label  for="gridCheck3">Chinese</label><br>
+                <input  type="checkbox" id="gridCheck4">
+                <label  for="gridCheck4">Japanese</label><br>
+                <input  type="checkbox" id="gridCheck5">
+                <label  for="gridCheck5">Italian</label><br>
+      </div>
+      <div>
+                <label for="state">State</label><br>
+                <input type="text" name="state" id="state"><br>
+      </div>
+      <div>
+                <label for="state1">Country</label><br>
+                <input type="text" name="state" id="state1"><br>
+                </div>
+      <div class="formaction--button">
+                <input type="button" value="submit">
+                </form>
+    
+                
+                <td>
+                    <h2>Temporary Database</h2><br>
+                   <table class="list" id="storeList">
+                    <thead>
+                        <tr>
+                            <th>firstname</th>
+                            <th>lastname</th>
+                            <th>address</th>
+                            <th>pincode</th>
+                            <th>gender</th>
+                            <th>food</th>
+                            <th>state</th>
+                            <th>country</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                   </table>
+                   </td>
+                   </td>
+                   </tr>
+    </table>
+                
+   
+    <script src="script.js"></script>
+</body>
+</html>
